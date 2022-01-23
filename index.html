@@ -1,0 +1,1096 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <meta charset='utf-8'>
+      <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+      <title>Tripadvisor</title>
+      <link rel="icon" id="favicon" href="https://static.tacdn.com/favicon.ico?v2" type="image/x-icon">
+      <link href="index_backup.css">
+      <script src="index_backup.js"></script>
+     
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+      <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/14bbb60f61.js" crossorigin="anonymous"></script>
+
+      <!--caurosal-->
+      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.css" />
+      
+      <link href="index.css" rel="stylesheet"> 
+      
+
+        
+  </head>
+  <body id="Tourist">
+      <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+              <a class="navbar-brand" style="font-weight: bold;font-size:32px;" href="#">
+                  <img src="https://static.tacdn.com/favicon.ico?v2" alt="brand-image" width="40" height="43" class="d-inline-block align-text-top">
+                  Tripadvisor
+                </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" >
+                  <li class="nav-item dropdown navbar-item" >
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-pencil-alt"></i>Review
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                          <li><a class="dropdown-item" href="#">Write a review</a></li>
+                          <li><a class="dropdown-item" href="#">Post photos</a></li>
+                      </ul>
+                      </li>
+                  
+              <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="far fa-heart"></i>Trips</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="far fa-bell"></i>Alerts</a>
+              </li>
+              <li class="nav-item active-item">
+                  <a class="nav-link" style="color:white"   onMouseOver="this.style.color='black'" onMouseOut="this.style.color='white'" href="login_form.html" tabindex="-1">Sign in</a>
+              </li>
+              </ul>
+              
+          </div>
+          </div>
+      </nav>
+      <hr>
+      <br>
+          
+      <div class="row">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 eighth" >
+              <div class="eighth_innerdiv">
+              <a href="#" >
+              <span style="float:left;">
+                Hotels
+            </span>
+              <span style="height:16px;width:16px;float:right">
+                  <i class="fas fa-hotel"></i>
+                  
+              </span>
+            </a>
+          </div>
+            
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 eighth" >
+              <div class="eighth_innerdiv">
+            <a href="#" >
+                <span style="float:left;">
+                    Holiday Homes
+                </span>
+                <span style="height:16px;width:16px;float:right">
+                  <i class="fas fa-home"></i>
+                  
+                </span>
+                </a>
+                </div>
+                
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 eighth" >
+              <div class="eighth_innerdiv">
+            <a href="#">
+                <span style="float:left;">
+                    Things to Do
+                </span>
+                <span style="height:16px;width:16px;float:right">
+                  <i class="fas fa-clipboard-list"></i>
+                  
+                </span>
+                </a>
+              </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 eighth"> 
+              <div class="eighth_innerdiv">
+              <a href="#">
+            <span style="float:left;">
+                Restaurants
+            </span>
+            <span style="height:16px;width:16px;float:right">
+              <i class="fas fa-utensils"></i>
+                <!-- <img src="restaurant.png" class="img-responsive" style="height: 16px;width: 16px;float: right;"/> -->
+            </span>
+            </a>
+          </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 eighth">
+              <div class="eighth_innerdiv">
+            <a href="#">
+                <span style="float:left;">
+                    Travel Forums
+                </span>
+                <span style="height:16px;width:16px;float:right">
+                  <i class="far fa-comments"></i>
+                    <!-- <img src="forum.png" class="img-responsive" style="height: 16px;width: 16px;float: right;"/> -->
+                </span>
+                </a>
+                </div>
+          </div>
+          <div class="col-lg-2  col-md-4 col-sm-6 col-xs-6 eighth">
+              <div class="eighth_innerdiv  dropdown">
+              <a href="#" class="dropdown-toggle"  id="mytoggle"   data-bs-toggle="dropdown" aria-expanded="false">
+                  <span style="float:left;">
+                    More
+                </span>
+                  <span style="height:16px;width:16px;float:right">
+                      <i class="fas fa-ellipsis-h"></i>
+                   
+                  </span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="mytoggle">
+                  <li><a class="dropdown-item" href="#">Add a Place</a></li>
+                  <li><a class="dropdown-item" href="#">Airlines</a></li>
+                  <li><a class="dropdown-item" href="#">Car Hire</a></li>
+                  <li><a class="dropdown-item" href="#">Cruises</a></li>
+                  <li><a class="dropdown-item" href="#">Flights</a></li>
+                  <li><a class="dropdown-item" href="#">Help Center </a></li>
+                  <li><a class="dropdown-item" href="#">Hire a Trip Designer</a></li>
+                  <li><a class="dropdown-item" href="#">Package Holidays</a></li>
+                  <li><a class="dropdown-item" href="#">Travel Articles</a></li>
+                  <li><a class="dropdown-item" href="#">Travelleres' Choice</a></li>
+                </ul>
+                
+          </div>
+         
+        </div>
+        <br>
+        <!--current search section-->
+        <div class="wrapper">
+              <img src="home1021_tw.webp" alt="search" class="img-responsive main-img" />
+              <div class="search-wrapper">
+                  <input type="search" placeholder="Where to?" title="search"  />
+                </div>
+        </div>
+        <br>
+
+        <div class="current_search">
+            <h4>Your recent searches</h4>
+            <a href="#" style="text-decoration: none;">
+            <div class="map_div">
+                   
+                     <span style="height:34px;padding:5px;float:float">
+                      <i class="fas fa-map-marker-alt" style="font-size: 1.5rem;"></i>
+                      
+                  </span>
+                   
+                    <span class="inside_text">
+                          <span style="display: block; padding-right: 5px;margin-right: 30px;font-size: 14px;font-weight:bold;">
+                              Chikmagalur
+                          </span>
+                          <span style="float: left;font-size: 12px;font-weight: lighter;">Chikkamagalur District</span>
+                    </span> 
+                  
+                  </div>
+                </a>
+        </div>
+        <br>
+        <!--First Slide-->
+        <div class="slide1_head">
+          <h4>Way to tour Bangalore</h4>
+          <p>Book these experiences for a close-up look at Bengaluru.</p>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 ">
+            <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                 <div class="carousel-item active" data-bs-interval="10000">
+                  
+                       <!-- <div class="container">  -->
+                        <div class="row">
+                         <div class="col-lg-3 col-md-3  col-sm-3 trans_effect">
+                            <a href="#" class="curosal_a">
+                            <div class="card slide_card" style="width: 17rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                              <img src="h_mysore.jpg" class="card-img-top" alt="Heritage Mysore">
+                              <div class="card-body card_style">
+                                <!-- <h5 class="card-title">Mysore</h5> -->
+                                <p class="card-text">Heritage Tour of Mysore,Srirangpatna & Somnathpur with breakfast & lunch</p>
+                                </div>
+                              <div class="card-body card_style"> 
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <span class="card_rev_text">65</span>  
+                                <p class="card_rev_text">from <i class="fas fa-rupee-sign"></i>12,133 per adults</p>
+                               </div> 
+                              
+                            </div>
+                          </a>
+                           </div>
+                           <!--Second card-->
+                           <div class="col-lg-3 col-md-3  col-sm-3">
+                            <a href="#" class="curosal_a">
+                            <div class="card slide_card" style="width: 17rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                              <img src="r_mysore.jpg" class="card-img-top" alt="Royal Mysore">
+                              <div class="card-body card_style">
+                                <!-- <h5 class="card-title">Royal Mysore</h5> -->
+                                <p class="card-text">Royal Mysore tour from Bangalore in private car with guide and lunch.</p>
+                                </div>
+                                 <div class="card-body card_style">
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <span class="card_rev_text">30</span>  
+                                <p class="card_rev_text">from <i class="fas fa-rupee-sign"></i>9,858 per adults</p>
+                              </div> 
+                              </div>
+                              </a>
+                            </div>
+                            
+                            <!--third card-->
+                            <div class="col-lg-3 col-md-3  col-sm-3">
+                              <a href="#" class="curosal_a">  
+                                <div class="card slide_card" style="width: 17rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                                <img src="coorg.jpg" class="card-img-top" alt="Coorg">
+                                <div class="card-body card_style">
+                                  <!-- <h5 class="card-title">Card title</h5> -->
+                                  <p class="card-text">Coorg 2-days guided Shitseeing from Bangalore.</p>
+                                  </div>
+                                  <div class="card-body card_style">
+                                  <i class="far fa-circle card_icon"></i>
+                                  <i class="far fa-circle card_icon"></i>
+                                  <i class="far fa-circle card_icon"></i>
+                                  <i class="far fa-circle card_icon"></i>
+                                  <i class="far fa-circle card_icon"></i>
+                                  <span class="card_rev_text">0 reviews</span>
+                                  <p class="card_rev_text">from <i class="fas fa-rupee-sign"></i>35,591 per adults</p>
+                                </div> 
+                            </div>
+                          </a>
+                          </div>    
+                          <!--fourth-->
+                          <div class="col-lg-3 col-md-3 col-sm-3">
+                            <a href="#" class="curosal_a">
+                            <div class="card slide_card" style="width: 17rem;">
+                              <img src="bangalore.jpg" class="card-img-top" alt="Bangalore City">
+                              <div class="card-body card_style"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                                <!-- <h5 class="card-title">Bangalore City</h5> -->
+                                <p class="card-text">Private full day Bangalore city tour.</p>
+                                </div>
+                                 <div class="card-body card_style">
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="far fa-circle card_icon"></i>
+                                <span class="card_rev_text">28</span>
+                                <p class="card_rev_text">from <i class="fas fa-rupee-sign"></i>5,905 per adults</p>
+                              </div> 
+                            </div>
+                          </a>
+                         </div>
+
+                        </div>    
+                      
+                       
+                  </div><!--copy upto this--><!--first row complete-->>
+
+                  <div class="carousel-item" data-bs-interval="2000">
+                     <!-- <div class="container">  -->
+                      <div class="row">
+                        <!--fifth-->
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                          <a href="#" class="curosal_a">
+                          <div class="card slide_card" style="width: 17rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                            <img src="wild_life.jpg" class="card-img-top" alt="Wild life">
+                            <div class="card-body card_style">
+                              <!-- <h5 class="card-title">Wildlife</h5> -->
+                              <p class="card-text">Wayanad Wildlife Heaven from Bangalore.</p>
+                              </div>
+                             <div class="card-body card_style">
+                                 <i class="far fa-circle card_icon"></i>
+                                  <i class="far fa-circle card_icon"></i>
+                                  <i class="far fa-circle card_icon"></i>
+                                  <i class="far fa-circle card_icon"></i>
+                                  <i class="far fa-circle card_icon"></i>
+                                  <span class="card_rev_text">0 reviews</span>
+                              <p class="card_rev_text">from <i class="fas fa-rupee-sign"></i>19,641 per adults</p>
+                            </div> 
+                          </div>
+                        </a>
+                       </div>
+                     <!--sixth card-->
+                     <div class="col-lg-3 col-md-3 col-sm-3">
+                      <a href="#" class="curosal_a">
+                      <div class="card slide_card" style="width: 17rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                        <img src="guide.jpg" class="card-img-top" alt="guide">
+                        <div class="card-body card_style">
+                          <!-- <h5 class="card-title">Bangalore City</h5> -->
+                          <p class="card-text">Bangalore City tour with guide in private car and lunch.</p>
+                          </div>
+                           <div class="card-body card_style">
+                          <i class="fas fa-circle card_icon"></i>
+                          <i class="fas fa-circle card_icon"></i>
+                          <i class="fas fa-circle card_icon"></i>
+                          <i class="fas fa-circle card_icon"></i>
+                          <i class="fas fa-circle card_icon"></i>
+                          <span class="card_rev_text">24</span>  
+                          <p class="card_rev_text">from <i class="fas fa-rupee-sign"></i>7,204 per adults</p>
+                    
+                        </div> 
+                      </div>
+                      </a>
+    
+                    </div>
+                          <!--seventh card-->
+                          <div class="col-lg-3 col-md-3 col-sm-3">
+                            <a href="#" class="curosal_a">
+                            <div class="card slide_card" style="width: 17rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                              <img src="kerala.jpg" class="card-img-top" alt="kerala">
+                              <div class="card-body card_style">
+                                <!-- <h5 class="card-title">Kerala</h5> -->
+                                <p class="card-text">Karnataka-Kerela nature tour.</p>
+                              </div>
+                               <div class="card-body card_style">
+
+                                <i class="far fa-circle card_icon"></i>
+                                <i class="far fa-circle card_icon"></i>
+                                <i class="far fa-circle card_icon"></i>
+                                <i class="far fa-circle card_icon"></i>
+                                <i class="far fa-circle card_icon"></i>
+                                <span class="card_rev_text">0 reviews</span>
+                             <p class="card_rev_text">from <i class="fas fa-rupee-sign"></i>90,999 per adults</p>
+
+                              </div> 
+                            </div>
+                            </a>
+                           </div>
+                             <!--eighth card-->
+                          <div class="col-lg-3 col-md-3 col-sm-3">
+                            <a href="#" class="curosal_a">
+                            <div class="card slide_card" style="width: 17rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                              <img src="nandi_hills.jpg" class="card-img-top" alt="nandini_hill">
+                              <div class="card-body card_style">
+                                <!-- <h5 class="card-title">Kerala</h5> -->
+                                <p class="card-text">Karnataka-Kerela nature tour.</p>
+                              </div>
+                                <div class="card-body card_style">
+                                <i class="far fa-circle card_icon"></i>
+                                <i class="far fa-circle card_icon"></i>
+                                <i class="far fa-circle card_icon"></i>
+                                <i class="far fa-circle card_icon"></i>
+                                <i class="far fa-circle card_icon"></i>
+                                <span class="card_rev_text">0 reviews</span>
+                             <p class="card_rev_text">from <i class="fas fa-rupee-sign"></i>11.223 per adults</p>
+                            </div> 
+
+                              
+                            </div>
+                            </a>
+                           </div>
+
+                      </div>    
+                     <!-- </div>  -->
+                </div><!--copy upto this-->
+
+              <!-- </div> -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev" style="background-color:black;height: 32px;width: 32px; border-radius: 50%;margin-top: 200px;"> 
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span> 
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next" style="background-color:black;height: 32px;width: 32px; border-radius: 50%;margin-top: 200px;">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>            
+          </div>  
+        </div>
+     
+               
+                 
+          <!-- </div> -->
+        </div><!--second slide-->
+        
+        <br>     
+             <!--Thrilling winter escapes -->
+              <!--First Slide-->
+        <div class="slide1_head">
+          <h4>Thrilling winter escapes </h4>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 ">
+            <div id="carousel-slide2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                 <div class="carousel-item active" data-bs-interval="10000">
+                  
+                       <!-- <div class="container">  -->
+                        <div class="row">
+                         <div class="col-lg-4 col-md-4  col-sm-4 trans_effect">
+                            <a href="#" class="curosal_a">
+                            <div class="card slide_card" style="width: 20rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                              <img src="auli-school.jpg" class="card-img-top s2Img" alt="Auli school">
+                              <div class="card-body card_style">
+                                
+                                <p class="card-text">Auli Ski & Snowboard School.</p>
+                              </div>
+                              <div class="card-body card_style"> 
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <span class="card_rev_text">5</span>  
+                                <p class="card_rev_text">Ski & Snowboard Area.</p>
+                               </div> 
+                              </div>
+                          </a>
+                           </div>
+                           <!--Second card-->
+                           <div class="col-lg-4 col-md-4  col-sm-4">
+                            <a href="#" class="curosal_a">
+                            <div class="card slide_card" style="width: 20rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                              <img src="Apharwat_peak.jpg" class="card-img-top s2Img" alt="Apharwat Peak ">
+                              <div class="card-body card_style">
+                               
+                                <p class="card-text">Apharwat Peak .</p>
+                                </div>
+                                 <div class="card-body card_style">
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <span class="card_rev_text">609</span>  
+                                <p class="card_rev_text">Mountains.</p>
+                              </div> 
+                              </div>
+                              </a>
+                            </div>
+                            
+                            <!--third card-->
+                            <div class="col-lg-4 col-md-4  col-sm-4">
+                              <a href="#" class="curosal_a">  
+                                <div class="card slide_card" style="width: 20rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                                <img src="solang-valley-manali.jpg" class="card-img-top s2Img" alt="Solang Valley">
+                                <div class="card-body card_style">
+                                  
+                                  <p class="card-text">Solang Valley.</p>
+                                  </div>
+                                  <div class="card-body card_style">
+                                    <i class="fas fa-circle card_icon"></i>
+                                    <i class="fas fa-circle card_icon"></i>
+                                    <i class="fas fa-circle card_icon"></i>
+                                    <i class="fas fa-circle card_icon"></i>
+                                    <i class="far fa-circle card_icon"></i>
+                                  <span class="card_rev_text">3091 reviews</span>
+                                  <p class="card_rev_text">Valleys</p>
+                                </div> 
+                            </div>
+                          </a>
+                          </div>    
+                          
+                  </div><!--copy upto this--><!--first row complete-->
+                </div><!--first slide complete-->
+
+                  <div class="carousel-item" data-bs-interval="2000">
+                     <!-- <div class="container">  -->
+                      <div class="row">
+                        <!--fourth-->
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                          <a href="#" class="curosal_a">
+                          <div class="card slide_card" style="width: 20rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                            <img src="Yumthang.jpg" class="card-img-top" alt="Yumthang Valley">
+                            <div class="card-body card_style">
+                              <!-- <h5 class="card-title">Wildlife</h5> -->
+                              <p class="card-text">Yumthang Valley.</p>
+                              </div>
+                             <div class="card-body card_style">
+                                 <i class="fas fa-circle card_icon"></i>
+                                  <i class="fas fa-circle card_icon"></i>
+                                  <i class="fas fa-circle card_icon"></i>
+                                  <i class="fas fa-circle card_icon"></i>
+                                  <i class="fas fa-circle card_icon"></i>
+                                  <span class="card_rev_text">743 reviews</span>
+                              <p class="card_rev_text">Hot Springs & Geysers,Valley</p>
+                            </div> 
+                          </div>
+                        </a>
+                       </div>
+                     <!--fifth card-->
+                     <div class="col-lg-4 col-md-4 col-sm-4">
+                      <a href="#" class="curosal_a">
+                      <div class="card slide_card" style="width: 20rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                        <img src="vanvaas.jpg" class="card-img-top" alt="Vanvaas Camps Narkanda">
+                        <div class="card-body card_style">
+                          <!-- <h5 class="card-title">Bangalore City</h5> -->
+                          <p class="card-text">Vanvaas Camps Narkanda.</p>
+                          </div>
+                           <div class="card-body card_style">
+                          <i class="fas fa-circle card_icon"></i>
+                          <i class="fas fa-circle card_icon"></i>
+                          <i class="fas fa-circle card_icon"></i>
+                          <i class="fas fa-circle card_icon"></i>
+                          <i class="fas fa-circle card_icon"></i>
+                          <span class="card_rev_text">7 reviews</span>  
+                          
+                    
+                        </div> 
+                      </div>
+                      </a>
+    
+                    </div>
+                          <!--sixth card-->
+                          <div class="col-lg-4 col-md-4 col-sm-4">
+                            <a href="#" class="curosal_a">
+                            <div class="card slide_card" style="width: 20rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                              <img src="himalayan-glamping-retreat.jpg" class="card-img-top" alt="Himalaya Glamping">
+                              <div class="card-body card_style">
+                                <!-- <h5 class="card-title">Kerala</h5> -->
+                                <p class="card-text">Himalaya Glamping.</p>
+                              </div>
+                               <div class="card-body card_style">
+
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <i class="fas fa-circle card_icon"></i>
+                                <span class="card_rev_text">80 reviews</span>
+                            
+
+                              </div> 
+                            </div>
+                            </a>
+                           </div>
+                             
+
+                      </div>    
+                     <!-- </div>  -->
+                </div><!--copy upto this-->
+
+              <!-- </div> -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-slide2" data-bs-slide="prev" style="background-color:black;height: 32px;width: 32px; border-radius: 50%;margin-top: 200px;"> 
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span> 
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-slide2" data-bs-slide="next" style="background-color:black;height: 32px;width: 32px; border-radius: 50%;margin-top: 200px;">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>            
+          </div>  
+        </div>
+     
+               
+                 
+          <!-- </div> -->
+        </div><!--second slide-->
+       
+        <br>
+        
+        <!--More to Explore-->
+        <div style="background-color: rgb(247, 232, 232);">
+        <div class="slide1_head">
+          <h4>More to Explore </h4>
+        </div>
+        <a href="#" class="curosal_a">
+        <div class="card-group" >
+          <div class="card card_group"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+            <img src="card_grop1.jpg" class="card-img-top" alt="Hill Station">
+            <div class="card-body">
+              <p class="card-text">From Tripadvisor</p>
+              <p class="card-text"><b>5 Beautiful Hill Station in South India</b></p>
+            </div>
+          </div>
+          <div class="card card_group"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+            <img src="card_group2.jpg" class="card-img-top" alt="Travel to Dubai">
+            <div class="card-body">
+              
+              <p class="card-text">From Tripadvisor</p>
+              <p class="card-text"><b>Everything you need to know about travel to Dubai and the top attraction to explore </b></p>
+            </div>
+          </div>
+          <div class="card card_group"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+            <img src="card_group3.jpg" class="card-img-top"  alt="More travel to India">
+            <div class="card-body">
+              
+              <p class="card-text">From Travel+Leisure India & South Asia .</p>
+              <p class="card-text"><b>Here are the countries you can visit as part of India,s air travel bubble</b></p>
+            </div>
+          </div>
+        </div>
+      </a>
+      </div>
+      <br>       
+
+      <!--Dream Your Next Trip-->    
+      <div class="slide1_head">
+        <h4>Dream Your Next Trip </h4>
+        <h5>Weekend getaways from Bengaluru</h5>
+        <p>Explore what’s nearby</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 ">
+          <div id="carusel_dreamtrip" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active" data-bs-interval="10000">
+                
+                     <!-- <div class="container">  -->
+                      <div class="row">
+                       <div class="col-lg-3 col-md-3  col-sm-3">
+                          <a href="#" class="curosal_a">
+                          <div class="card slide_card" style="width: 17rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                            <img src="tirupati.jpg" class="card-img-top" alt="Tirupati">
+                            <div class="card-body card_style">
+                              <p class=" innertext">Tirupati,India</p>
+                              </div>
+                            </div>
+                          </a>
+                         </div>
+                         <!--Second card-->
+                         <div class="col-lg-3 col-md-3  col-sm-3">
+                          <a href="#" class="curosal_a">
+                          <div class="card slide_card" style="width: 17rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                            <img src="mangalore.jpg" class="card-img-top" alt="Mangalore">
+                            <div class="card-body card_style">
+                              <!-- <h5 class="card-title">Royal Mysore</h5> -->
+                              <p class="innertext">Mangalore,India</p>
+                              </div>
+                               
+                            </div>
+                            </a>
+                          </div>
+                          
+                          <!--third card-->
+                          <div class="col-lg-3 col-md-3  col-sm-3">
+                            <a href="#" class="curosal_a">  
+                              <div class="card slide_card" style="width: 17rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                              <img src="coimbatore.jpg" class="card-img-top" alt="Coimbatore">
+                              <div class="card-body card_style">
+                                <p class="innertext">Coimbatore,India</p>
+                                </div>
+                             </div>
+                        </a>
+                        </div>    
+                        <!--fourth-->
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                          <a href="#" class="curosal_a">
+                          <div class="card slide_card" style="width: 17rem;">
+                            <img src="ooty.jpg" class="card-img-top" alt="Ooty">
+                            <div class="card-body card_style"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                              <!-- <h5 class="card-title">Bangalore City</h5> -->
+                              <p class="innertext">Ooty,India</p>
+                              </div>
+                           </div>
+                        </a>
+                       </div>
+                      </div>    
+                     
+                </div><!--copy upto this--><!--first row complete-->>
+
+                <div class="carousel-item" data-bs-interval="2000">
+                   <!-- <div class="container">  -->
+                    <div class="row">
+                      <!--fifth-->
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                        <a href="#" class="curosal_a">
+                        <div class="card slide_card" style="width: 17rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                          <img src="kodaikanal.jpg" class="card-img-top" alt="Kodaikanal">
+                          <div class="card-body card_style">
+                            <!-- <h5 class="card-title">Wildlife</h5> -->
+                            <p class="innertext">Kodaikanal,India</p>
+                            </div>
+                           
+                        </div>
+                      </a>
+                     </div>
+                   <!--sixth card-->
+                   <div class="col-lg-3 col-md-3 col-sm-3">
+                    <a href="#" class="curosal_a">
+                    <div class="card slide_card" style="width: 17rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                      <img src="sri-chamundeshwari-temple.jpg" class="card-img-top" alt="sri-chamundeshwari-temple">
+                      <div class="card-body card_style">
+                        <!-- <h5 class="card-title">Bangalore City</h5> -->
+                        <p class="innertext">Mysuru(Mysore),India</p>
+                        </div>
+                        
+                    </div>
+                    </a>
+  
+                  </div>
+                        <!--seventh card-->
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                          <a href="#" class="curosal_a">
+                          <div class="card slide_card" style="width: 17rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                            <img src="chennai-madras.jpg" class="card-img-top" alt="chennai-madras">
+                            <div class="card-body card_style">
+                              <p class="innertext">Chennai(Madras),India</p>
+                            </div>
+                             
+                          </div>
+                          </a>
+                         </div>
+                           <!--eighth card-->
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                          <a href="#" class="curosal_a">
+                          <div class="card slide_card" style="width: 17rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                            <img src="hampi.jpg" class="card-img-top" alt="hampi">
+                            <div class="card-body card_style">
+                              <p class="innertext">Hampi,India</p>
+                            </div>
+                          </div>
+                          </a>
+                         </div>
+
+                    </div>    
+                   <!-- </div>  -->
+              </div><!--copy upto this-->
+
+            <!-- </div> -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carusel_dreamtrip" data-bs-slide="prev" style="background-color:black;height: 32px;width: 32px; border-radius: 50%;margin-top: 200px;"> 
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span> 
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carusel_dreamtrip" data-bs-slide="next" style="background-color:black;height: 32px;width: 32px; border-radius: 50%;margin-top: 200px;">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>            
+        </div>  
+      </div>
+   
+             
+               
+        <!-- </div> -->
+      </div><!--drem trip-->
+      <br>
+      <!--for beach lover-->
+      <div class="slide1_head">
+        <h4>Top destinations for beach lovers </h4>
+        <p>Recommended based on your activity</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 ">
+          <div id="carusel_beachtrip" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active" data-bs-interval="10000">
+                
+                     <!-- <div class="container">  -->
+                      <div class="row">
+                       <div class="col-lg-3 col-md-3  col-sm-3">
+                          <a href="#" class="curosal_a">
+                          <div class="card slide_card" style="width: 17rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                            <img src="tulum.jpg" class="card-img-top" alt="Tulum">
+                            <div class="card-body card_style">
+                              <p class=" innertext">Tulum,Maxico</p>
+                              </div>
+                            </div>
+                          </a>
+                         </div>
+                         <!--Second card-->
+                         <div class="col-lg-3 col-md-3  col-sm-3">
+                          <a href="#" class="curosal_a">
+                          <div class="card slide_card" style="width: 17rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                            <img src="bora-bora.jpg" class="card-img-top" alt="bora-bora">
+                            <div class="card-body card_style">
+                              <!-- <h5 class="card-title">Royal Mysore</h5> -->
+                              <p class="innertext">Bora-Bora,French Polynesia</p>
+                              </div>
+                               
+                            </div>
+                            </a>
+                          </div>
+                          
+                          <!--third card-->
+                          <div class="col-lg-3 col-md-3  col-sm-3">
+                            <a href="#" class="curosal_a">  
+                              <div class="card slide_card" style="width: 17rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                              <img src="tenerife.jpg" class="card-img-top" alt="tenerife">
+                              <div class="card-body card_style">
+                                <p class="innertext">Tenerife,Spain</p>
+                                </div>
+                             </div>
+                        </a>
+                        </div>    
+                        <!--fourth-->
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                          <a href="#" class="curosal_a">
+                          <div class="card slide_card" style="width: 17rem;">
+                            <img src="hawaii.jpg" class="card-img-top" alt="hawaii">
+                            <div class="card-body card_style"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                              
+                              <p class="innertext">Hawaii</p>
+                              </div>
+                           </div>
+                        </a>
+                       </div>
+                      </div>    
+                     
+                </div><!--copy upto this--><!--first row complete-->>
+
+                <div class="carousel-item" data-bs-interval="2000">
+                   <!-- <div class="container">  -->
+                    <div class="row">
+                      <!--fifth-->
+                      <div class="col-lg-3 col-md-3 col-sm-3">
+                        <a href="#" class="curosal_a">
+                        <div class="card slide_card" style="width: 17rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                          <img src="miami.jpg" class="card-img-top" alt="miami">
+                          <div class="card-body card_style">
+                            
+                            <p class="innertext">Miami,FL</p>
+                            </div>
+                           
+                        </div>
+                      </a>
+                     </div>
+                   <!--sixth card-->
+                   <div class="col-lg-3 col-md-3 col-sm-3">
+                    <a href="#" class="curosal_a">
+                    <div class="card slide_card" style="width: 17rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                      <img src="dominican.jpg" class="card-img-top" alt="dominican">
+                      <div class="card-body card_style">
+                        
+                        <p class="innertext">Dominican Republic</p>
+                        </div>
+                        
+                    </div>
+                    </a>
+  
+                  </div>
+                        <!--seventh card-->
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                          <a href="#" class="curosal_a">
+                          <div class="card slide_card" style="width: 17rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                            <img src="myrtle_beach.jpg" class="card-img-top" alt="myrtle_beach">
+                            <div class="card-body card_style">
+                              <p class="innertext">Myrtle Beach,SC</p>
+                            </div>
+                             
+                          </div>
+                          </a>
+                         </div>
+                           <!--eighth card-->
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                          <a href="#" class="curosal_a">
+                          <div class="card slide_card" style="width: 17rem;"><button class="innerbutton"> <i class="far fa-heart iconclass"></i></button>
+                            <img src="bali.jpg" class="card-img-top" alt="bali">
+                            <div class="card-body card_style">
+                              <p class="innertext">Bali,Indonesia</p>
+                            </div>
+                          </div>
+                          </a>
+                         </div>
+
+                    </div>    
+                   <!-- </div>  -->
+              </div><!--copy upto this-->
+
+            <!-- </div> -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carusel_beachtrip" data-bs-slide="prev" style="background-color:black;height: 32px;width: 32px; border-radius: 50%;margin-top: 200px;"> 
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span> 
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carusel_beachtrip" data-bs-slide="next" style="background-color:black;height: 32px;width: 32px; border-radius: 50%;margin-top: 200px;">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>            
+        </div>  
+      </div>
+   
+             
+               
+        <!-- </div> -->
+      </div><!--drem trip-->
+    
+  </div><!--main container-->
+  <footer class="bg-light text-center text-lg-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">About Tripadvisor</h5>
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-dark">About Us</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Press</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Resources and Policies</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Careers</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Trust & Safety</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-0">Explore</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-dark">Write a review</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Add a Place</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Join </a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Travellers' Choice</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">GreenLeaders</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Help Centre</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Travel Articles</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Do Business With Us</h5>
+  
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-dark">Owners & DMO/CVB</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Business Advantage</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Sponsored Placements</a>
+            </li>
+            <h5 class="text-uppercase">Get The App</h5>
+            
+            <li>
+              <a href="#!" class="text-dark">iPhone App</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Android App</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+         <p>Tripadvisor Sites
+          Book tours and attraction tickets on <a href="#">Viator</a></p>
+  
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div  style="background-color: rgba(0, 0, 0, 0.2);padding:7%;">
+      <div style="display: flex;flex-direction: row;">
+      <img src="https://static.tacdn.com/favicon.ico?v2" alt="brand-image" width="40" height="43" class="d-inline-block align-text-top" style="text-align: center;">
+     
+      <div style="color:black !important;font-size: 14px;margin-top: -3px;font-weight: 400;">
+        © 2022 TripAdvisor LLC All rights reserved.:<br>
+        <a class="text-dark" href="#">Terms of Use</a>&nbsp;
+        <a class="text-dark" href="#">Privacy and Cookies Statement</a>&nbsp;
+        <a class="text-dark" href="#">Cookie consent</a>&nbsp;
+        <a class="text-dark" href="#">Site Map</a>&nbsp;
+        <a class="text-dark" href="#">How the site works</a>&nbsp;
+      </div>
+    
+      
+          <!-- Default dropup button -->
+      <div class="btn-group dropup" style="margin-left:10px">
+        <button type="button" class="btn btn-secondary dropdown-toggle footer_btn" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fas fa-rupee-sign"></i>INR
+        </button>
+        <ul class="dropdown-menu list-unstyled mb-0">
+          <li>
+            <a href="#" class="text-dark">CA$ Canadian Dollar</a>
+          </li>
+          <li>
+            <a href="#" class="text-dark">CHF Swiss Frances</a>
+          </li>
+          <li>
+            <a href="#" class="text-dark">A$ Australian Dollar</a>
+          </li>
+          <li>
+            <a href="#" class="text-dark">Indian Rupees</a>
+          </li>
+        </ul>
+      </div>
+      
+      <!-- Split dropup button -->
+      <div class="btn-group dropup" style="margin-left:10px">
+        <button type="button" class="btn btn-secondary">
+          India
+        </button>
+        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+          <span class="visually-hidden">Dropdown</span>
+        </button>
+        <ul class="dropdown-menu list-unstyled mb-0">
+          <li>
+            <a href="#" class="text-dark">Canada (English)</a>
+          </li>
+          <li>
+            <a href="#" class="text-dark">Canada(Francais)</a>
+          </li>
+          <li>
+            <a href="#" class="text-dark">Brasil</a>
+          </li>
+          <li>
+            <a href="#" class="text-dark">Maxico</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <div style="display: flex;flex-flow: row-reverse;">
+      <a href="https://www.instagram.com/tripadvisor/" class="me-4 text-reset" target="_blank" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://in.pinterest.com/tripadvisor/_created/" class="me-4 text-reset" target="_blank" title="Pinterest">
+        <i class="fab fa-pinterest"></i>
+      </a>
+      <a href="https://twitter.com/TripAdvisorInd" target="_blank" title="Twitter" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.facebook.com/TripAdvisor" target="_blank" title="Facebook" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </div> 
+    
+      </div>
+      <center>
+        <span>
+          <a href="#Tourist">
+            <i class="fas fa-caret-up uparrow" title="Go To Top"></i>
+          </a>
+       </span>
+       
+    </center>
+  <!-- Default dropup button -->
+
+   
+ 
+    <!-- Copyright -->
+  </footer>
+  
+  </body>
+  </html>
+  
